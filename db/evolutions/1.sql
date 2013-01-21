@@ -29,7 +29,7 @@ CREATE TABLE account (
 );
 
 
-ALTER TABLE public.account OWNER TO dbuser;
+ALTER TABLE public.account OWNER TO iqisxhpfaqvpyc;
 
 CREATE TABLE company (
     id bigint NOT NULL,
@@ -38,7 +38,7 @@ CREATE TABLE company (
 );
 
 
-ALTER TABLE public.company OWNER TO dbuser;
+ALTER TABLE public.company OWNER TO iqisxhpfaqvpyc;
 
 CREATE SEQUENCE hibernate_sequence
     START WITH 1
@@ -48,7 +48,7 @@ CREATE SEQUENCE hibernate_sequence
     CACHE 1;
 
 
-ALTER TABLE public.hibernate_sequence OWNER TO dbuser;
+ALTER TABLE public.hibernate_sequence OWNER TO iqisxhpfaqvpyc;
 
 SELECT pg_catalog.setval('hibernate_sequence', 4, true);
 
